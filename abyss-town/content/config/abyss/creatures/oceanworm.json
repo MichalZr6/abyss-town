@@ -1,0 +1,78 @@
+{
+	"abyssOceanWorm":
+	{
+		"name" :
+		{
+			"plural" : "Ocean Worms",
+			"singular" : "Ocean Worm"
+		},
+		"faction" : "abyss",		
+		"advMapAmount" :
+		{
+			 "min" : 3,
+			 "max" : 8
+		},
+		"level" : 7,
+		"attack" : 24,
+		"defense" : 24,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+		"speed" : 13,
+		"fightValue" : 6139,
+		"aiValue" : 7878,
+		"cost" :
+		{
+			"gold" : 4200,
+			"gems": 2
+		},
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/OceanWorm.def",
+			"map" : "abyss/map/creatures/AVWOceanWorm.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/OceanWorm.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/OceanWorm.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/wormattk.wav",
+			"defend": "abyss/wormdfnd.wav",
+			"killed": "abyss/wormkill.wav",
+			"move": "abyss/wormmove.wav",
+			"wince": "abyss/wormwnce.wav",
+                        "startMoving": "abyss/wormext1.wav",
+			"endMoving": "abyss/wormext2.wav"
+                },
+		"abilities" :
+		{
+			"flying":
+			{
+				"type":"FLYING",
+				"subtype":1
+                       },
+			"waterImmunity":
+			{
+				"type":"WATER_IMMUNITY",
+				"subtype":1
+			},
+			"binds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 65
+			}
+		}
+	}
+}

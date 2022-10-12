@@ -1,0 +1,74 @@
+{
+	"abyssYuanTiWarrior":
+	{
+		"name" :
+		{
+			"plural" : "Yuan-Ti",
+			"singular" : "Yuan-Ti"
+		},
+		"upgrades":
+		[
+			"abyssYuanTiLeader"
+		],
+		"doubleWide" : true,
+		"faction" : "abyss",		
+		"advMapAmount" :
+		{
+			 "min" : 5,
+			 "max" : 12
+		},
+		"level" : 6,
+		"attack" : 14,
+		"defense" : 18,
+		"damage" :
+		{
+			 "min" : 17,
+			 "max" : 22
+		},
+		"growth" : 2,
+		"hitPoints" : 90,
+		"speed" : 6,
+		"fightValue" : 1396,
+		"aiValue" : 1618,
+		"cost" :
+		{
+			"gold" : 900
+		},
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/Yuan-TiWarrior.def",
+			"map" : "abyss/map/creatures/AVWYuan-TiWarrior.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/Yuan-TiWarrior.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/Yuan-TiWarrior.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/merrattk.wav",
+			"defend": "abyss/merrdfnd.wav",
+			"killed": "abyss/merrkill.wav",
+			"move": "abyss/merrmove.wav",
+			"wince": "abyss/merrwnce.wav"
+                 },
+		"abilities" :
+		{
+			"waterImmunity":
+			{
+				"type":"WATER_IMMUNITY",
+                                "subtype":1
+			},
+			"enemyDefenceReduction":
+			{
+				"type": "ENEMY_DEFENCE_REDUCTION",
+				"val": 10
+			}
+		}
+	}
+}

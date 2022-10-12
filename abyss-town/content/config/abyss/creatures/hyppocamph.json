@@ -1,0 +1,79 @@
+{
+	"abyssHyppocamph":
+	{
+		"name" :
+		{
+			"plural" : "Magic Seahorses",
+			"singular" : "Magic Seahorse"
+		},
+		"faction" : "abyss",
+		"upgrades":
+		[
+			"goldenHyppocamph"
+		],
+		"advMapAmount" :
+		{
+			 "min" : 12,
+			 "max" : 25
+		},
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 9,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 22,
+		"speed" : 11,
+		"fightValue" : 354,
+		"aiValue" : 357,
+		"cost" :
+		{
+			"gold" : 270
+		},
+		"horde" : 3,
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/Hyppocamph.def",
+			"map" : "abyss/map/creatures/AVWHyppocamph.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/Hyppocamph.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/Hyppocamph.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/hyppattk.wav",
+			"defend": "abyss/hyppdfnd.wav",
+			"killed": "abyss/hyppkill.wav",
+			"move": "abyss/hyppmove.wav",
+			"wince": "abyss/hyppwnce.wav"
+        },
+		"abilities" :
+		{
+			"flying":
+			{
+				"type":"FLYING"
+            },
+			"lucky":
+			{
+				"type":"SELF_LUCK"
+			},
+			 "spellAfterAttack" :
+			{
+                "type": "SPELL_AFTER_ATTACK",
+                "subtype": "spell.misfortune",
+                "val" : 35,
+                "addInfo": 1
+			}
+        }
+	}
+}

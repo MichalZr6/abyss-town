@@ -1,0 +1,48 @@
+{
+	"seaweeds" : {
+		"abilities" : {
+
+			"binds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 90
+			},
+			"defensiveStance" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 50
+			}
+		},
+		"upgrades": ["seaweedsup"],		
+		"advMapAmount" : {"max" : 30, "min" : 15},
+		"aiValue" : 482,
+		"attack" : 7,
+		"cost" : { "gold" : 200 },
+		"damage" : {"max" : 5, "min" : 3},
+		"defense" : 7,
+		"faction" : "abyss",
+		"fightValue" : 594,
+		"graphics" : {
+			"animation" : "abyss/battle/creatures/seaweeds",
+			"animationTime" : { "attack" : 1.6, "flight" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"iconSmall" : "abyss/iconsSmall/creatures/seaweeds.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/seaweeds.bmp",
+			"map" : "abyss/map/creatures/Advseaweeds",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 18,
+                "doubleWide" : true,
+		"level" : 3,
+		"name" : { "plural" : "Seaweeds", "singular" : "Seaweed" },
+		"sound" : {
+			"attack" : "abyss/ROPatak",
+			"defend" : "abyss/ROPdefend",
+			"killed" : "abyss/ROPkill",
+			"move" : "abyss/ROPmove",
+			"wince" : "abyss/ROPwince"
+		},
+		"speed" : 5
+	}
+}

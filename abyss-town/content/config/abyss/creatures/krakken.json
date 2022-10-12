@@ -1,0 +1,77 @@
+{
+	"abKrakken":
+	{
+		"name" :
+		{
+			"plural" : "Krakkens",
+			"singular" : "Krakken"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "abyss",
+		"aiValue" : 6377,
+		"attack" : 19,
+		"cost" :
+		{
+			"gold" : 3000,
+			"gems" : 3
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 21,
+		"fightValue" : 4990,
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/Krakken",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "abyss/map/creatures/AVWKrakken.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/Krakken.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/Krakken.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+	        "doubleWide" : true,		
+		"sound" :
+		{
+			"attack" : "abyss/DRAatak",
+			"defend" : "abyss/DRAdefend",
+			"killed" : "abyss/DRAkill",
+			"move" : "abyss/DRAmove",
+			"wince" : "abyss/DRAwnce"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+		"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 50
+			},
+			"dragonNature" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+		     "KING3" :
+			{
+				"type" : "KING3"
+			},
+		      "canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"waterImmunity":
+			{
+				"type":"WATER_IMMUNITY",
+				"subtype":1
+			}	
+		}
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"abyssSeaWorm":
+	{
+		"name" :
+		{
+			"plural" : "Sea Worms",
+			"singular" : "Sea Worm"
+		},
+		"upgrades":
+		[
+			"abyssOceanWorm"
+		],
+		"faction" : "abyss",		
+		"advMapAmount" :
+		{
+			 "min" : 4,
+			 "max" : 10
+		},
+		"level" : 7,
+		"attack" : 19,
+		"defense" : 17,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 180,
+		"speed" : 9,
+		"fightValue" : 3337,
+		"aiValue" : 4143,
+		"cost" :
+		{
+			"gold" : 2400,
+			"gems": 1
+		},
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/SeaWorm.def",
+			"map" : "abyss/map/creatures/AVWSeaWorm.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/SeaWorm.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/SeaWorm.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/wormattk.wav",
+			"defend": "abyss/wormdfnd.wav",
+			"killed": "abyss/wormkill.wav",
+			"move": "abyss/wormmove.wav",
+			"wince": "abyss/wormwnce.wav",
+                  "startMoving": "abyss/wormext1.wav",
+			"endMoving": "abyss/wormext2.wav"
+        },
+		"abilities" :
+		{
+			"flying":
+			{
+				"type":"FLYING",
+				"subtype":1
+            },
+			"waterImmunity":
+			{
+				"type":"WATER_IMMUNITY",
+				"subtype":1
+			}
+		}
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"goldenHyppocamph":
+	{
+		"name" :
+		{
+			"plural" : "Golden Seahorse",
+			"singular" : "Golden Seahorses"
+		},
+		"faction" : "abyss",
+		"special" : true,
+		"advMapAmount" :
+		{
+			 "min" : 12,
+			 "max" : 20
+		},
+		"level" : 3,
+		"attack" : 9,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 4,
+			 "max" : 7
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+		"speed" : 13,
+		"doubleWide" : true,
+		"fightValue" : 421,
+		"aiValue" : 430,
+		"cost" :
+		{
+			"gold" : 320
+		},
+		"horde" : 3,
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/GiantGoldSeahorse.def",
+			"map" : "abyss/map/creatures/AVWGiantGoldSeahorse.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/GiantGoldSeahorseS.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/GiantGoldSeahorseB.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/hyppattk.wav",
+			"defend": "abyss/hyppdfnd.wav",
+			"killed": "abyss/hyppkill.wav",
+			"move": "abyss/hyppmove.wav",
+			"wince": "abyss/hyppwnce.wav"
+        },
+		"abilities" :
+		{
+			"flying":
+			{
+				"type":"FLYING"
+            },
+			"lucky":
+			{
+				"type":"SELF_LUCK"
+			},
+			 "spellAfterAttack" :
+			{
+                "type": "SPELL_AFTER_ATTACK",
+                "subtype": "spell.misfortune",
+                "val" : 50,
+                "addInfo": 1
+			},
+			"seaMovement" :
+			{
+				"type": "SEA_MOVEMENT",
+				"description" : "Increase sea movement",
+				"propagator" : "HERO",
+				"val" : 300
+			}
+        }
+	}
+}

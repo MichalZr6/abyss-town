@@ -1,0 +1,52 @@
+{
+	"seaweedsup" : {
+		"abilities" : {
+
+			"binds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 90
+			},
+			"defensiveStance" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 50
+			},
+			"acidBreath" : {
+				"type" : "ACID_BREATH",
+				"val" : 2,
+				"addInfo" : 50
+				}
+		},	
+		"advMapAmount" : {"max" : 25, "min" : 15},
+		"aiValue" : 486,
+		"attack" : 7,
+		"cost" : { "gold" : 250 },
+		"damage" : {"max" : 5, "min" : 3},
+		"defense" : 7,
+		"faction" : "abyss",
+		"fightValue" : 548,
+		"graphics" : {
+			"animation" : "abyss/battle/creatures/seaweedsup",
+			"animationTime" : { "attack" : 1.6, "flight" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"iconSmall" : "abyss/iconsSmall/creatures/seaweedsup.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/seaweedsup.bmp",
+			"map" : "abyss/map/creatures/Advseaweedsup",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 7,
+		"hitPoints" : 18,
+                "doubleWide" : true,
+		"level" : 1,
+		"name" : { "plural" : "Poisonous Seaweeds", "singular" : "Poisonous Seaweed" },
+		"sound" : {
+			"attack" : "abyss/ROPatak",
+			"defend" : "abyss/ROPdefend",
+			"killed" : "abyss/ROPkill",
+			"move" : "abyss/ROPmove",
+			"wince" : "abyss/ROPwince"
+		},
+		"speed" : 5
+	}
+}

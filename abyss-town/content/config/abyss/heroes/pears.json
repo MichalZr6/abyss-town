@@ -1,0 +1,52 @@
+{
+	"pears" : 
+	{
+		"class" : "ichthyander",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Pears",
+			"biography" : "Pears' helm of nautilus shell shards has held up after many, many years. It has proven to him more than enough that providing similar armor to his troops increase their longevity. He does argue with Trila over what is best, her expensive alloy or his natural shells.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "abyss/heroes/Pears/spec-small.bmp",
+			"specialtyLarge" : "abyss/heroes/Pears/spec-large.bmp",
+			"large" : "abyss/heroes/Pears/portrait-large.bmp",
+			"small" : "abyss/heroes/Pears/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "tbirdvulgaris", "min" : 10, "max" : 15 },
+			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9 },
+			{ "creature" : "abyssSandCrab", "min" : 6, "max" : 9}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "skill.armorer",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}		
+	}
+}

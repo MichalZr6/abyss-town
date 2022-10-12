@@ -1,0 +1,73 @@
+{
+	"abyssAbyssalCrab":
+	{
+		"name" :
+		{
+			"plural" : "Abyssal Crabs",
+			"singular" : "Abyssal Crab"
+		},
+		"hasDoubleWeek": true,
+		"doubleWide" : true,
+     	"faction" : "abyss",
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
+		},
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 7,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 8,
+		"hitPoints" : 18,
+		"speed" : 5,
+		"fightValue" : 222,
+		"aiValue" : 217,
+		"cost" :
+		{
+			"gold" : 160
+		},
+		"horde" : 4,
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/abyssalcrab.def",
+			"map" : "abyss/map/creatures/AVWAbyssalCrab.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/abyssalCrab.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/abyssalCrab.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/crabattk.wav",
+			"defend": "abyss/crabdfnd.wav",
+			"killed": "abyss/crabkill.wav",
+			"move": "abyss/crabmove.wav",
+			"wince": "abyss/crabwnce.wav"
+        },
+		"abilities" :
+		{        
+                        "extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+			},
+			"airShield":
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val" : 30
+			}	
+		}
+	}
+}

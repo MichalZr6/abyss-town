@@ -1,0 +1,72 @@
+{
+	"abyssSandCrab":
+	{
+		"name" :
+		{
+			"plural" : "Sand Crabs",
+			"singular" : "Sand Crab"
+		},
+		"upgrades":
+		[
+			"abyssAbyssalCrab"
+		],
+		"hasDoubleWeek": true,
+		"doubleWide" : true,
+        	"faction" : "abyss",
+		"advMapAmount" :
+		{
+			 "min" : 25,
+			 "max" : 30
+		},
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 8,
+		"hitPoints" : 18,
+		"speed" : 4,
+		"fightValue" : 222,
+		"aiValue" : 217,
+		"cost" :
+		{
+			"gold" : 130
+		},
+		"horde" : 4,
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/sandcrab.def",
+			"map" : "abyss/map/creatures/AVWSandCrab.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/SandCrab.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/SandCrab.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/crabattk.wav",
+			"defend": "abyss/crabdfnd.wav",
+			"killed": "abyss/crabkill.wav",
+			"move": "abyss/crabmove.wav",
+			"wince": "abyss/crabwnce.wav"
+                },
+		"abilities" :
+		{
+			"airShield":
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val" : 20
+			}	
+		}
+	}
+}

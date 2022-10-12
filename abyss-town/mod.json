@@ -1,0 +1,77 @@
+{
+	"name" : "Abyss town",
+	"description" : "Abyss town",
+	
+	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "0.8",
+	"modType" : "Town",	
+        "factions" : [ "config/abyss/town" ],
+	"creatures" :
+	[
+		"config/abyss/creatures/tbirdvulgaris.json",
+		"config/abyss/creatures/tbirdelectric.json",
+		"config/abyss/creatures/sandcrab.json",
+		"config/abyss/creatures/abyssalcrab.json",
+		"config/abyss/creatures/seahorse.json",
+		"config/abyss/creatures/hyppocamph.json",
+		"config/abyss/creatures/goldenhyppocamph.json",
+		"config/abyss/creatures/abyssaljellyfish.json",
+		"config/abyss/creatures/deepwaterjellyfish.json",
+		"config/abyss/creatures/giantoctopus.json",
+		"config/abyss/creatures/abyssalgiantoctopus.json",
+		"config/abyss/creatures/yuantiwarrior.json",
+		"config/abyss/creatures/yuantileader.json",
+		"config/abyss/creatures/seaworm.json",
+		"config/abyss/creatures/oceanworm.json",
+		"config/abyss/creatures/lobster.json",
+		"config/abyss/creatures/lobsterup.json",
+		"config/abyss/creatures/deepone.json",
+		"config/abyss/creatures/darkone.json",
+		"config/abyss/commander/abyssHyppoCommander.json",
+		"config/abyss/creatures/tbirdbloody.json",
+		"config/abyss/creatures/tbirdglowing.json",
+		"config/abyss/creatures/krakken.json",
+		"config/abyss/creatures/seaweeds.json",
+		"config/abyss/creatures/seaweedsup.json",
+		"config/abyss/creatures/Harpoon.json"
+	],
+    "artifacts":
+        [              
+               "config/abyss/artifacts/Harpoon.json"        
+        ],
+	
+	"heroClasses" :
+	[
+		"config/abyss/classes/abyssalShaman.json",
+		"config/abyss/classes/ichthyander.json"
+	],
+
+	"heroes" :
+	[
+	"config/abyss/heroes/arkana.json",
+	"config/abyss/heroes/asler.json",
+	"config/abyss/heroes/karnti.json",
+        "config/abyss/heroes/sirranna.json",
+        "config/abyss/heroes/pears.json",
+        "config/abyss/heroes/season.json",
+        "config/abyss/heroes/wel.json",
+        "config/abyss/heroes/abiss.json",
+        "config/abyss/heroes/dissanna.json",
+        "config/abyss/heroes/gril.json",
+        "config/abyss/heroes/kasta.json",
+        "config/abyss/heroes/kingsax.json",
+        "config/abyss/heroes/kraken teamster.json",
+        "config/abyss/heroes/perha.json",
+        "config/abyss/heroes/raytlii.json",
+        "config/abyss/heroes/trila.json",
+        "config/abyss/heroes/verna.json",
+        "config/abyss/heroes/werser.json"
+	],
+	
+	"objects" : 
+	[ 
+	"config/abyss/dwellings.json",
+	"config/abyss/banks/waterTemple.json" 
+	]
+}

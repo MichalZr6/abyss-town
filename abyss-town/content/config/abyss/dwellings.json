@@ -1,0 +1,152 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"spawningPool" : {
+				"name" : "Spawning Pool",
+				"creatures" : [[ "tbirdvulgaris" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw1.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"crimsonPool" : {
+				"name" : "Crimson Pool",
+				"creatures" : [[ "tbirdbloody" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw12.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"waterdeepPool" : {
+				"name" : "Waterdeep Pool",
+				"creatures" : [[ "tbirdglowing" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw11.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"shellShelter" : {
+				"name" : "Shell Shelter",
+				"creatures" : [[ "abyssSandCrab" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw2.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"reefTunnel" : {
+				"name" : "Reef Tunnel",
+				"creatures" : [[ "abyssSeahorse" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "abyss/map/abyssdw3.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"reef" : {
+				"name" : "Reef",
+				"creatures" : [[ "seaweeds" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "abyss/map/abyssdw10.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"hotWaterIncubator" : {
+				"name" : "Hot Water Incubator",
+				"creatures" : [[ "abyssDeepwaterJellyfish" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw4.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"shelter" : {
+				"name" : "Shelter",
+				"creatures" : [[ "abyssLobster" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw8.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"Coral Cavern" : {
+				"name" : "Coral Cavern",
+				"creatures" : [[ "abyssGiantOctopus" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw5.def",
+						"mask" : [ "VV", "VV", "VVVV", "VVV", "BA" ]
+					}
+				}
+			},
+			"yuanTiPalace" : {
+				"name" : "Merrow Palace",
+				"creatures" : [[ "abyssYuanTiWarrior" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw6.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				}
+			},
+			"summoningWhirpool" : {
+				"name" : "Summoning Whirpool",
+				"creatures" : [[ "abyssSeaWorm" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw7.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"ancientWhirpool" : {
+				"name" : "abKrakken",
+				"creatures" : [[ "abKrakken" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/abyssdw9.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			}
+		}		
+	},
+	"core:creatureGeneratorSpecial" : {
+		"handler": "dwelling",
+		"types" : {
+				"birthingPit" : {
+				"name" : "Birthing Pit", 
+				"creatures" : [ 
+					[ "deepOne" ],
+					[ "darkOne" ]
+				],
+				"guards" : [
+					{ "amount" : 20, "type" : "darkOne" },
+					{ "amount" : 10, "type" : "deepOne" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "abyss/map/birthingPit.def",
+						"mask" : [  "VVV", "VBV", "VAB" ]
+					}
+				}
+			}	
+		}
+	}
+}

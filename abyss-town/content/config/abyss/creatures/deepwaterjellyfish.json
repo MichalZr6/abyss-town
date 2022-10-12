@@ -1,0 +1,90 @@
+{
+	"abyssAbyssalJellyfish":
+	{
+		"name" :
+		{
+			"plural" : "Storms Aurelias",
+			"singular" : "Storm Aurelia"
+		},
+		"faction" : "abyss",		
+		"advMapAmount" :
+		{
+			 "min" : 10,
+			 "max" : 16
+		},
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 8
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+		"speed" : 6,
+		"shots" : 24,
+		"fightValue" : 523,
+		"aiValue" : 533,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/AbyssalJellyfish.def",
+			"map" : "abyss/map/creatures/AVWAbyssalJellyfish.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/AbyssalJellyfish.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/AbyssalJellyfish.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "abyss/battle/creatures/projectile/SHOT198.def",
+				"attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "abyss/spirattk.wav",
+			"defend": "abyss/spirdfnd.wav",
+			"killed": "abyss/spirkill.wav",
+			"move": "abyss/spirmove.wav",
+			"wince": "abyss/spirwnce.wav",
+			"shoot": "abyss/spirshot.wav"
+                },
+		"abilities":
+		{
+			"castlightningBolt" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.lightningBolt",
+				"val" : 20
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+                        }
+		}	
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"name" : "Changed Banks",
+	"description" : "Submod replaces some Abyss creatures in shipwrecks and derilicts ships",
+	
+	"author" : "",
+	"contact" : "",
+	"version" : "1.0",
+	"modType" : "",	
+	"depends" : [ "abyss" ],
+	"objects" : [ "config/abyss/changedBanks.json" ]
+}

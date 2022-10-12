@@ -1,0 +1,67 @@
+{
+	"tbirdvulgaris":
+	{
+		"name" :
+		{
+			"plural" : "Ornias",
+			"singular" : "Ornia"
+		},
+		"upgrades":
+		[
+			"tbirdelectric"
+		],
+		"faction" : "abyss",
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 3
+		},
+		"growth" : 14,
+		"hitPoints" : 7,
+		"speed" : 6,
+		"fightValue" : 113,
+		"aiValue" : 102,
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/tbirdvulgaris.def",
+			"map" : "abyss/map/creatures/AVWTentacleBirdVulgaris.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/TentacleBirdVulgaris.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/TentacleBirdVulgaris.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/fellattk.wav",
+			"defend": "abyss/felldfnd.wav",
+			"killed": "abyss/fellkill.wav",
+			"move": "abyss/fellmove.wav",
+			"wince": "abyss/fellwnce.wav"
+        },
+		"abilities" :
+		{
+			"flying" :
+			{
+				"type": "FLYING"
+			}
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"tbirdglowing":
+	{
+		"name" :
+		{
+			"plural" : "Waterdeep Ornias",
+			"singular" : "Waterdeep Ornia"
+		},
+		"faction" : "abyss",
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"level" : 1,
+		"attack" : 6,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 14,
+		"hitPoints" : 10,
+		"speed" : 8,
+		"fightValue" : 166,
+		"aiValue" : 155,
+		"cost" :
+		{
+			"gold" : 95
+		},
+		"graphics" :
+		{
+			"animation" : "abyss/battle/creatures/Glowing.def",
+			"map" : "abyss/map/creatures/Glowing.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/Glowing.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/Glowing.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "abyss/fellattk.wav",
+			"defend": "abyss/felldfnd.wav",
+			"killed": "abyss/fellkill.wav",
+			"move": "abyss/fellmove.wav",
+			"wince": "abyss/fellwnce.wav"
+                },
+		"abilities" :
+		{
+		    "spellAfterAttack" :
+			{
+                                 "type": "SPELL_AFTER_ATTACK",
+                                 "subtype": "spell.lightningBolt",
+                                 "val" : 10,
+                                 "addInfo": 0
+			},
+			"lightningBoltPOwer" :
+			{
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype":"spell.lightningBolt",
+				"val" : 1
+			},
+			"flying" :
+			{
+				"type": "FLYING"
+			},
+			"drainsMana" : 
+			{
+				"type" : "MANA_DRAIN",
+				"val" : 5
+			},
+			"drainsLife" : 
+			{
+				"type" : "LIFE_DRAIN",
+				"val" : 10
+			}				
+		}
+	}
+}
+
+

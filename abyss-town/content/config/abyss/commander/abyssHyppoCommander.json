@@ -1,0 +1,105 @@
+{
+	"abyssHyppoCommander":
+	{
+		"name" :
+		{
+			"plural" : "Gulf Executioners",
+			"singular" : "Gulf Executioner"
+		},
+//		"advMapAmount" :
+//		{
+//			 "max" : 30,
+//			 "min" : 20
+//		},
+		"faction" : "abyss",
+		"aiValue" : 195,
+//		"level" : 1,
+		"special" : true,
+		"attack" : 5,
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 3
+		},
+		"defense" : 5,
+		"fightValue" : 207,
+		"graphics" :
+		{
+			"animation" : "abyss/battle/commander/abyssHyppoCommander.def",
+			"map" : "abyss/map/creatures/AVWHyppoCommander.def",
+			"iconSmall" : "abyss/iconsSmall/creatures/HyppoCommander.bmp",
+			"iconLarge" : "abyss/iconsBig/creatures/HyppoCommander.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"doubleWide" : false,
+		"growth" : 1,
+		"hitPoints" : 11,
+		"shots" : 5,
+		"sound" :
+		{
+			"attack": "HYDRATTK.wav",
+			"defend": "HYDRDFND.wav",
+			"killed": "HYDRKILL.wav",
+			"move": "HYDRMOVE.wav",
+			"wince": "HYDRWNCE.wav",
+			"shoot": "CAVAATTK.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectWater",
+				"val" : 3
+			}
+		}
+	}
+}
