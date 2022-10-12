@@ -3,10 +3,19 @@
 	"description" : "Abyss town",
 	
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
-	"contact" : "http://forum.vcmi.eu/index.php",
+	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
 	"version" : "0.8",
 	"modType" : "Town",	
-        "factions" : [ "config/abyss/town" ],
+    "factions" : [ "config/abyss/town" ],
+	"changelog" :
+    {
+        "0.80"   : [ "Various fixes"  ],
+		"0.70"   : [ "Initial release"  ]
+    },
+	"compatibility":
+	{
+		"min" : "1.0.0"
+	},
 	"creatures" :
 	[
 		"config/abyss/creatures/tbirdvulgaris.json",
