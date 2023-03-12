@@ -16,6 +16,14 @@
 	{
 		"min" : "1.0.0"
 	},
+	"german" : {
+		"name" : "Abyss",
+		"description" : "Abyss",
+		"modType" : "Stadt",		
+		"translations" : [
+			"translation/german.json"
+		]
+	},
 	"creatures" :
 	[
 		"config/abyss/creatures/tbirdvulgaris.json",
