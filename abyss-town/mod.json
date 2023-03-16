@@ -21,7 +21,7 @@
 		"description" : "Abyss",
 		"modType" : "Stadt",		
 		"translations" : [
-			"translation/german.json"
+			"translation/abyss/german.json"
 		]
 	},
 	"creatures" :
