@@ -18,8 +18,7 @@
 	},
 	"german" : {
 		"name" : "Abyss",
-		"description" : "Abyss",
-		"modType" : "Stadt",		
+		"description" : "Abyss",	
 		"translations" : [
 			"translation/abyss/german.json"
 		]
