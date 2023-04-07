@@ -6,7 +6,8 @@
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.bind",
-				"val" : 90
+				"val" : 90,
+				"addInfo" : [0,2]
 			},
 			"defensiveStance" :
 			{
@@ -29,7 +30,7 @@
 		"fightValue" : 548,
 		"graphics" : {
 			"animation" : "abyss/battle/creatures/seaweedsup",
-			"animationTime" : { "attack" : 1.6, "flight" : 1.6, "idle" : 20, "walk" : 1.5 },
+			"animationTime" : { "attack" : 1.6, "idle" : 20, "walk" : 1.5 },
 			"iconSmall" : "abyss/iconsSmall/creatures/seaweedsup.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/seaweedsup.bmp",
 			"map" : "abyss/map/creatures/Advseaweedsup",

@@ -81,7 +81,7 @@
 					}
 				}
 			},
-			"Coral Cavern" : {
+			"coralCavern" : {
 				"name" : "Coral Cavern",
 				"creatures" : [[ "abyssGiantOctopus" ]],
 				"guards" : true,

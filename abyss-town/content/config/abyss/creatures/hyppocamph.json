@@ -45,8 +45,7 @@
 			{
 				"walk" : 1.28,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -65,14 +64,14 @@
             },
 			"lucky":
 			{
-				"type":"SELF_LUCK"
+				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX"
 			},
 			 "spellAfterAttack" :
 			{
                 "type": "SPELL_AFTER_ATTACK",
                 "subtype": "spell.misfortune",
                 "val" : 35,
-                "addInfo": 1
+                "addInfo": [2,2]
 			}
         }
 	}

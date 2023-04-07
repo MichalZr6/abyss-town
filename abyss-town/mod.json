@@ -4,17 +4,18 @@
 	
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "0.8",
+	"version" : "0.90",
 	"modType" : "Town",	
     "factions" : [ "config/abyss/town" ],
 	"changelog" :
     {
+        "0.90"   : [ "Update to vcmi-1.2"  ],
         "0.80"   : [ "Various fixes"  ],
 		"0.70"   : [ "Initial release"  ]
     },
 	"compatibility":
 	{
-		"min" : "1.0.0"
+		"min" : "1.2.0"
 	},
 	"german" : {
 		"name" : "Abyss",

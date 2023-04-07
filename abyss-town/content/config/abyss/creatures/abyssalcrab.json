@@ -43,8 +43,7 @@
 			{
 				"walk" : 1.28,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -57,10 +56,10 @@
         },
 		"abilities" :
 		{        
-                        "extraAttack" :
+            "extraAttack" :
 			{
 				"type": "ADDITIONAL_ATTACK",
-				"val" : 1,
+				"val" : 1
 			},
 			"airShield":
 			{

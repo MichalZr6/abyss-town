@@ -43,18 +43,14 @@
 				"skill" : "estates"
 			}
 		],
-		"specialty": //estates
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "GENERATE_RESOURCE",
-						"subtype": "resource.gold",
-						"val": 350
-                    }
-				],
+		"specialty": {
+			"bonuses": {
+				"gold" : {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.gold",
+					"val": 350
+                }
 			}
-		]
+		}
 	}
 }

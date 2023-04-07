@@ -300,7 +300,7 @@
 						"gold" : 1500
 					},
 					"requires" : [ "allOf", ["fort"], ["dwellingLvl3"] ],
-					"id" : 18,					
+					"id" : 18		
 				},
 				"horde2Upgr" :
 				{
@@ -677,6 +677,8 @@
 			"siege" : {
 				"shooter" : "abyssDeepwaterJellyfish",
 				"imagePrefix" : "abyss/siege/SgDn",
+				"towerIconSmall" : "abyss/icons/arrowtowersmall",
+				"towerIconLarge" : "abyss/icons/arrowtowerslarge",
 				"towers" :
 				{
 					"top" :
@@ -861,7 +863,7 @@
 					"border" : "abyss/town-screen/buildings-border/TODSMITH",
 					"x" : 387,
 					"y" : 203, 
-					"z" : 3,
+					"z" : 3
 				},
 				"horde1" :
 				{
@@ -942,7 +944,7 @@
 					"border" : "abyss/town-screen/buildings-border/TODTRG1A",
 					"x" : 675, 
 					"y" : 91,  
-					"z" : 1,
+					"z" : 1
 				},
 				"dwellingLvl2" :
 				{

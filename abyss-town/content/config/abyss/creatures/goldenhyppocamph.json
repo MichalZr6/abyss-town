@@ -43,8 +43,7 @@
 			{
 				"walk" : 1.28,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -63,21 +62,23 @@
             },
 			"lucky":
 			{
-				"type":"SELF_LUCK"
+				"type" : "LUCK", "val" : 1, "valueType" : "INDEPENDENT_MAX"
 			},
 			 "spellAfterAttack" :
 			{
                 "type": "SPELL_AFTER_ATTACK",
                 "subtype": "spell.misfortune",
                 "val" : 50,
-                "addInfo": 1
+                "addInfo": [2,2]
 			},
 			"seaMovement" :
 			{
-				"type": "SEA_MOVEMENT",
+				"subtype" : 0,
+				"type" : "MOVEMENT",
+				"val" : 300,
+				"valueType" : "ADDITIVE_VALUE",
 				"description" : "Increase sea movement",
-				"propagator" : "HERO",
-				"val" : 300
+				"propagator" : "HERO"
 			}
         }
 	}

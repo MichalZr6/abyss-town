@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "abyss/battle/creatures/Krakken",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "abyss/map/creatures/AVWKrakken.def",
 			"iconSmall" : "abyss/iconsSmall/creatures/Krakken.bmp",
 			"iconLarge" : "abyss/iconsBig/creatures/Krakken.bmp",
@@ -61,7 +61,7 @@
 			},
 		     "KING3" :
 			{
-				"type" : "KING3"
+				"type" : "KING", "val" : 3, "valueType" : "ADDITIVE_VALUE"
 			},
 		      "canFly" :
 			{

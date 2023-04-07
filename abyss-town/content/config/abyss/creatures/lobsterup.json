@@ -42,8 +42,7 @@
 			{
 				"walk" : 1.28,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			}
 		},
 		"sound" :
@@ -72,7 +71,7 @@
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : 0,
 				"val" : 15
-			},
+			}
 		}
 	}
 }
