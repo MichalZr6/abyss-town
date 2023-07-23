@@ -1,7 +1,6 @@
 {
 	"abyss" : {
 		"alignment" : "neutral",
-		"boat" : "boatFortress",
 		"creatureBackground" : { "120px" : "abyss/creature-bg-120px.bmp", "130px" : "abyss/creature-bg-130px.bmp" },
 		"name" : "Abyss",
 		"nativeTerrain" : "swamp",
@@ -630,7 +629,6 @@
 			"guildWindow" : "abyss/town-screen/mage-guild.bmp",
 			"hallBackground" : "TPTHBKFR",
 			"horde" : [ 2, 1 ],
-			"moatAbility" : "abyssMoat",
 			"icons" : {
 				"village" : {
 					"normal" : {"small" : "abyss/icons/hall-small.bmp", "large" : "abyss/icons/hall-big.bmp" },
@@ -1069,6 +1067,7 @@
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "abyss/town-screen/background.bmp",
 		"warMachine" : "abyssHarpoon",
+		"moatDamage" : 90,
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
