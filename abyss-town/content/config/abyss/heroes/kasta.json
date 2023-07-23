@@ -10,8 +10,8 @@
 			"biography" : "Kasta's wealth borders on the abundant. She is also quite the philantropist, helping those in need with a few extra gold pieces.",
 			"specialty" :
 			{
-				"description" : "+350 Gold per day",
-				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"tooltip" : "+350 Gold per day",
+				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold"
 			}
 		},
