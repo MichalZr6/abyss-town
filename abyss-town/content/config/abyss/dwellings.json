@@ -115,7 +115,7 @@
 				}
 			},
 			"ancientWhirpool" : {
-				"name" : "abKrakken",
+				"name" : "Ancient Whirpool",
 				"creatures" : [[ "abKrakken" ]],
 				"guards" : true,
 				"templates" : {

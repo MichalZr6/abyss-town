@@ -24,9 +24,16 @@
 			"translation/abyss/chinese.json"
 		]
 	},
+	"french" : {
+		"name" : "Abîme",
+		"description" : "La ville des abîmes",
+		"translations" : [
+			"translation/abyss/french.json"
+		]
+	},
 	"german" : {
 		"name" : "Abyss",
-		"description" : "Abyss",	
+		"description" : "Abyss",
 		"translations" : [
 			"translation/abyss/german.json"
 		]
