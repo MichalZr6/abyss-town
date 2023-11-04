@@ -37,7 +37,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw2.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -47,7 +47,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "abyss/map/abyssdw3.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [ "VVV", "BBB", "BAB" ]
 					}
 				}
 			},
@@ -57,7 +57,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "abyss/map/abyssdw10.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [ "VBB", "BAB" ]
 					}
 				}
 			},
@@ -67,7 +67,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw4.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [ "VBB","BAB" ]
 					}
 				}
 			},
@@ -77,7 +77,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw8.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -88,7 +88,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw5.def",
-						"mask" : [ "VV", "VV", "VVVV", "VVV", "BA" ]
+						"mask" : [ "VVV", "BBB", "BAB" ]
 					}
 				}
 			},
@@ -99,7 +99,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw6.def",
-						"mask" : [ "VVV", "VAB" ]
+						"mask" : [ "VVV", "BBB", "BAB" ]
 					}
 				}
 			},
@@ -110,7 +110,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw7.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVV", "BBB", "BAB" ]
 					}
 				}
 			},
@@ -121,7 +121,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw9.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVVV", "VBBV", "VBAV" ]
 					}
 				}
 			}
