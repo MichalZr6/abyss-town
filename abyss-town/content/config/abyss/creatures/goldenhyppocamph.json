@@ -58,7 +58,8 @@
 		{
 			"flying":
 			{
-				"type":"FLYING"
+				"type":"FLYING",
+				"subtype" : "movementFlying"
             },
 			"lucky":
 			{
@@ -73,7 +74,7 @@
 			},
 			"seaMovement" :
 			{
-				"subtype" : 0,
+				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 300,
 				"valueType" : "ADDITIVE_VALUE",

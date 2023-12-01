@@ -59,16 +59,10 @@
                 },
 		"abilities":
 		{
-			"immuneToArrow":	
-			{	
-				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype": 1,
-				"val" : 15	
-			},
 			"generalDamageReduction" :
 			{
 				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : 0,
+				"subtype" : "damageTypeAll",
 				"val" : 15
 			}
 		}

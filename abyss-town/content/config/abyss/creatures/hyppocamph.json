@@ -60,7 +60,8 @@
 		{
 			"flying":
 			{
-				"type":"FLYING"
+				"type":"FLYING",
+				"subtype" : "movementFlying"
             },
 			"lucky":
 			{
