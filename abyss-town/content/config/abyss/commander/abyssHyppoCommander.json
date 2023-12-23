@@ -8,13 +8,13 @@
 		},
 		"faction" : "abyss",
 		"aiValue" : 195,
-//		"level" : 1,
+		"level" : 0,
 		"special" : true,
 		"attack" : 5,
 		"damage" :
 		{
-			 "max" : 4,
-			 "min" : 3
+			 "max" : 12,
+			 "min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 207,
@@ -49,8 +49,8 @@
 		},
 		"doubleWide" : false,
 		"growth" : 1,
-		"hitPoints" : 11,
-		"shots" : 5,
+		"hitPoints" : 40,
+		"shots" : 24,
 		"sound" :
 		{
 			"attack": "HYDRATTK.wav",
@@ -60,14 +60,9 @@
 			"wince": "HYDRWNCE.wav",
 			"shoot": "CAVAATTK.wav"
 		},
-		"speed" : 5,
+		"speed" : 4,
 		"abilities" :
 		{
-			"shooter" :
-			{
-				"type" : "SHOOTER"
-			},
-
 			"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
