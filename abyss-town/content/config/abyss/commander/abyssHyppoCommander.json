@@ -7,7 +7,7 @@
 			"singular" : "Gulf Executioner"
 		},
 		"faction" : "abyss",
-		"aiValue" : 195,
+		"aiValue" : 156,
 		"level" : 0,
 		"special" : true,
 		"attack" : 5,
@@ -17,7 +17,7 @@
 			 "min" : 6
 		},
 		"defense" : 5,
-		"fightValue" : 207,
+		"fightValue" : 130,
 		"graphics" :
 		{
 			"animation" : "abyss/battle/commander/abyssHyppoCommander.def",
@@ -48,7 +48,7 @@
 			}
 		},
 		"doubleWide" : false,
-		"growth" : 1,
+		"growth" : 9,
 		"hitPoints" : 40,
 		"shots" : 24,
 		"sound" :

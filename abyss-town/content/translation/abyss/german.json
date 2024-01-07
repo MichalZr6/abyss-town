@@ -239,7 +239,7 @@
     "hero.abyss-town.werser.specialty.tooltip": "Kreaturen-Bonus: Seepferdchen",
     "heroClass.abyss-town.abyssalShaman.name": "Oracle",
     "heroClass.abyss-town.ichthyander.name": "Seelord",
-	"spell.abyss-town.abyssMoat.name": "Graben",
+	"spell.abyss-town.abyssMoatTrigger.name": "Graben",
     "mapObject.abyss-town.creatureBank. WaterTemple.name": "Wassertempel",
     "mapObject.abyss-town.creatureGeneratorCommon.coralCavern.name": "Korallenhöhle",
     "mapObject.abyss-town.creatureGeneratorCommon.ancientWhirpool.name": "abKrakken",

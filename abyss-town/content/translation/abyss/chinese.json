@@ -238,5 +238,21 @@
     "hero.abyss-town.werser.specialty.name" : "海马",
     "hero.abyss-town.werser.specialty.tooltip" : "Creature Bonus: Seahorses",
     "heroClass.abyss-town.abyssalShaman.name" : "深渊先知",
-    "heroClass.abyss-town.ichthyander.name" : "海洋领主"
+    "heroClass.abyss-town.ichthyander.name" : "海洋领主",
+	"spell.abyss-town.abyssMoat.name": "地堑",
+	"spell.abyss-town.abyssMoatTrigger.name": "地堑",
+    "mapObject.abyss-town.creatureBank. WaterTemple.name": "水神殿",
+    "mapObject.abyss-town.creatureGeneratorCommon.coralCavern.name": "珊瑚洞穴",
+    "mapObject.abyss-town.creatureGeneratorCommon.ancientWhirpool.name": "远古涡流",
+    "mapObject.abyss-town.creatureGeneratorCommon.crimsonPool.name": "绯红之泉",
+    "mapObject.abyss-town.creatureGeneratorCommon.hotWaterIncubator.name": "热泉温室",
+    "mapObject.abyss-town.creatureGeneratorCommon.reef.name": "礁石",
+    "mapObject.abyss-town.creatureGeneratorCommon.reefTunnel.name": "岩礁通道",
+    "mapObject.abyss-town.creatureGeneratorCommon.shellShelter.name": "贝壳栖所",
+    "mapObject.abyss-town.creatureGeneratorCommon.shelter.name": "暗穴",
+    "mapObject.abyss-town.creatureGeneratorCommon.spawningPool.name": "诞生池",
+    "mapObject.abyss-town.creatureGeneratorCommon.summoningWhirpool.name": "召唤涡流",
+    "mapObject.abyss-town.creatureGeneratorCommon.waterdeepPool.name": "深渊之泉",
+    "mapObject.abyss-town.creatureGeneratorCommon.yuanTiPalace.name": "鲛人宫殿",
+    "mapObject.abyss-town.creatureGeneratorSpecial.birthingPit.name": "繁殖坑"
 }

@@ -19,8 +19,51 @@
 				"val" : 2,
 				"addInfo" : 50
 				}
-		},	
-		"advMapAmount" : {"max" : 25, "min" : 15},
+		},
+		"stackExperience" :
+		[	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		],	
+		"advMapAmount" : {"max" : 20, "min" : 12},
 		"aiValue" : 486,
 		"attack" : 7,
 		"cost" : { "gold" : 250 },
@@ -39,7 +82,7 @@
 		"growth" : 7,
 		"hitPoints" : 18,
                 "doubleWide" : true,
-		"level" : 1,
+		"level" : 3,
 		"name" : { "plural" : "Poisonous Seaweeds", "singular" : "Poisonous Seaweed" },
 		"sound" : {
 			"attack" : "abyss/ROPatak",
