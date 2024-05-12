@@ -3,21 +3,22 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "0.96",
-	"modType" : "Town",	
-    "factions" : [ "config/abyss/town" ],
+	"version" : "0.97",
+	"modType" : "Town",
+	"factions" : [ "config/abyss/town" ],
 	"changelog" :
-    {
+	{
+		"0.97"   : [ "Fixed possible crash on map start" ],
 		"0.96"   : [ "Added the creatures' stackExp and fixed the commander" ],
 		"0.95"   : [ "Adjusted Commanders stats" ],
 		"0.94"   : [ "Update to vcmi-1.4 format" ],
 		"0.93"   : [ "Various fixes" ],
 		"0.92"   : [ "Update to vcmi-1.3" ],
-        "0.91"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-        "0.90"   : [ "Update to vcmi-1.2"  ],
-        "0.80"   : [ "Various fixes"  ],
+		"0.91"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
+		"0.90"   : [ "Update to vcmi-1.2"  ],
+		"0.80"   : [ "Various fixes"  ],
 		"0.70"   : [ "Initial release"  ]
-    },
+	},
 	"compatibility":
 	{
 		"min" : "1.4.0"

@@ -38,7 +38,7 @@
 		"growth" : 1,
 		"hitPoints" : 300,
 		"level" : 7,
-	        "doubleWide" : true,		
+		"doubleWide" : true,
 		"sound" :
 		{
 			"attack" : "abyss/DRAatak",
@@ -50,7 +50,7 @@
 		"speed" : 9,
 		"abilities" :
 		{
-		"reduceDefence" :
+			"reduceDefence" :
 			{
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 50
@@ -59,11 +59,11 @@
 			{
 				"type" : "DRAGON_NATURE"
 			},
-		     "KING3" :
+			"KING3" :
 			{
 				"type" : "KING", "val" : 3, "valueType" : "ADDITIVE_VALUE"
 			},
-		      "canFly" :
+			"canFly" :
 			{
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
@@ -73,7 +73,7 @@
 				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 				"subtype": "water"
 			}
-		}},
+		},
 		"stackExperience" :
 		[
 			{
@@ -118,4 +118,4 @@
 			}
 		]
 	}
-
+}
