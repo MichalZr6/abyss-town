@@ -3,11 +3,12 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "0.97",
+	"version" : "0.98",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
+		"0.98"   : [ "Russian translation by Anton Sergeew" ],
 		"0.97"   : [ "Fixed possible crash on map start" ],
 		"0.96"   : [ "Added the creatures' stackExp and fixed the commander" ],
 		"0.95"   : [ "Adjusted Commanders stats" ],
@@ -42,6 +43,13 @@
 		"description" : "Abyss",
 		"translations" : [
 			"translation/abyss/german.json"
+		]
+	},
+	"russian" : {
+		"name" : "Бездна",
+		"description" : "Бездна",
+		"translations" : [
+			"translation/abyss/russian.json"
 		]
 	},
 	"creatures" :
