@@ -46,8 +46,8 @@
 		]
 	},
 	"russian" : {
-		"name" : "Бездна",
-		"description" : "Бездна",
+		"name" : "Пучина",
+		"description" : "Новый город Пучина, созданный по тематике подводного мира",
 		"translations" : [
 			"translation/abyss/russian.json"
 		]
