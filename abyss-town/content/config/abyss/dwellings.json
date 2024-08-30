@@ -7,7 +7,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw1.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VBB", "VBB", "BAB" ]
 					}
 				}
 			},
@@ -17,7 +17,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw12.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VBB", "VBB", "BAB" ]
 					}
 				}
 			},
@@ -27,7 +27,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw11.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [ "VBB", "VBB", "BAB" ]
 					}
 				}
 			},
@@ -37,7 +37,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw2.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [ "BBB", "VBB", "BAB" ]
 					}
 				}
 			},
@@ -47,7 +47,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "abyss/map/abyssdw3.def",
-						"mask" : [ "VVV", "BBB", "BAB" ]
+						"mask" : [ "VBB", "BBB", "BBA" ]
 					}
 				}
 			},
@@ -57,7 +57,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "abyss/map/abyssdw10.def",
-						"mask" : [ "VBB", "BAB" ]
+						"mask" : [ "BBB", "BAB" ]
 					}
 				}
 			},
@@ -77,7 +77,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw8.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [ "BBB", "VBB", "BAB" ]
 					}
 				}
 			},
@@ -88,7 +88,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw5.def",
-						"mask" : [ "VVV", "BBB", "BAB" ]
+						"mask" : [ "BBB", "BBB", "BAB" ]
 					}
 				}
 			},
@@ -99,7 +99,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw6.def",
-						"mask" : [ "VVV", "BBB", "BAB" ]
+						"mask" : [ "BBB", "BBB", "BAB" ]
 					}
 				}
 			},
@@ -110,7 +110,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw7.def",
-						"mask" : [ "VVV", "BBB", "BAB" ]
+						"mask" : [ "VBB", "BBB", "BAB" ]
 					}
 				}
 			},
@@ -121,7 +121,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "abyss/map/abyssdw9.def",
-						"mask" : [ "VVVV", "VBBV", "VBAV" ]
+						"mask" : [ "VVVV", "VVVV", "VBBV", "BBBB", "BBAB" ]
 					}
 				}
 			}
