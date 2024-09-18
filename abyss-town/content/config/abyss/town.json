@@ -354,7 +354,7 @@
 					"id" : 22
 				},	
 				"grail": {
-					"description": "Magic Whirlpool increases weekly creature generation by 50 percent, adds 5000 gold per day, gives the hero the ability to walk on water and increases the Defense strength of a every hero by +10.",
+					"description": "Magic Whirlpool increases weekly creature generation by 50 percent, adds 5000 gold per day, gives the hero the ability to walk on water and increases the Defense strength of every hero by +10.",
 					"name": "Magic Whirlpool",
 					"bonuses": [
 						{
