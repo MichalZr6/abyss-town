@@ -3,7 +3,7 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.02",
+	"version" : "1.03",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
