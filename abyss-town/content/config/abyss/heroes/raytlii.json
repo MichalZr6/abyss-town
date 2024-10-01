@@ -9,7 +9,7 @@
 			"biography" : "Raytilii found the jellyfish of the depths fascinating to no end. He would have them shoot at longer and longer distances every day just to see what the limit was. He also put them under many other tests as their ranged attacks would be most useful in a military campaign. One day, he did have one such campaign, and the results proved that these creatures were more than useful for the coming war.",
 			"specialty" :
 			{
-				"description" : "{Aurelia and Storm Aurelias}\r\n\r\nIncreases Speed of any Aurelia or Storm Aurelias by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"description" : "Increases Speed of any Aurelia or Storm Aurelias by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Aurelia",
 				"name" : "Aurelia"
 			}

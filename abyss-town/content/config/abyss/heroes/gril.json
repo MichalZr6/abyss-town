@@ -9,7 +9,7 @@
 			"biography" : "Gril was a gypsy with the strange power who was anathematized by other people. One stormy day she made the lighting fork on her behalf. Due to her state as a pariah, the kingdoms beneath sought quickly to hire her, as such power would be devastating in enemy hands.",
 			"specialty" : 
 			{
-				"description" : "{Chain Lightning}\r\n\r\nCasts Chain Lightning with increased effect, based on hero level.",
+				"description" : "Casts Chain Lightning with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Chain Lightning",
 				"name" : "Chain Lightning"
 			}

@@ -10,7 +10,7 @@
 			"biography" : "When human mages first contacted Abyss towns, Karn-Ti was one of first scholars to study spellcraft. Now he is most respected Merrow in the deep oceans due to his foreign contacts and unique insight.",
 			"specialty" :
 			{
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"description" : "Receives a 5% per level bonus to Sorcery skill.",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}

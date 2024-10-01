@@ -9,7 +9,7 @@
 			"biography" : "Pears' helm of nautilus shell shards has held up after many, many years. It has proven to him more than enough that providing similar armor to his troops increase their longevity. He does argue with Trila over what is best, her expensive alloy or his natural shells.",
 			"specialty" :
 			{
-				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
 				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}

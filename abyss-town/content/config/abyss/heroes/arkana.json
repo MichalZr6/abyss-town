@@ -9,7 +9,7 @@
 			"biography" : "Arkana were born an undine. At young age she was enslaved by Yuan-Ti. But her natural talents impressed her master, so she was freed and at the age of twelve she was taken to an Abyssal Temple, where she learned magic.",
 			"specialty" :
 			{
-				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
+				"description" : "Receives a 5% per level bonus to Scouting skill.",
 				"tooltip" : "Secondary Skill Bonus: Scouting",
 				"name" : "Scouting"
 			}

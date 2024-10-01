@@ -9,7 +9,7 @@
 			"biography" : "Season was born underwater, and raised underwater like most of his brethren, deep in the coral forests in the depths. There, he honed his skills against any and all intruders and with age came experience. He soon became a teacher amongst his kin, and a proponent for bringing his skills to the test on the surface.",
 			"specialty" :
 			{
-				"description" : "{Yuan-Ti and Yuan-Ti Leaders}\r\n\r\nIncreases Speed of any Yuan-Ti or Yuan-Ti Warriors by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"description" : "Increases Speed of any Yuan-Ti or Yuan-Ti Warriors by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Yuan-Ti",
 				"name" : "Yuan-Ti"
 			}

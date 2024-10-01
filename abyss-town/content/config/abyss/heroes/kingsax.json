@@ -9,7 +9,7 @@
 			"biography" : "Little is known about Kingsax. He prefers remaining in the shadows, even hiding in a distance from his own battles, as the safety makes him think clearer.",
 			"specialty" :
 			{
-				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"description" : "Receives a 5% per level bonus to Intelligence skill.",
 				"tooltip" : "Secondary Skill Bonus: Intelligence",
 				"name" : "Intelligence"
 			}
@@ -45,10 +45,10 @@
 			"bonuses" : {
 				"intelligence" : {
 					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MANA_PER_KNOWLEDGE",
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 				}
 			}
 		}

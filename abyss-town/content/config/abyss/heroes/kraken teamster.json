@@ -10,7 +10,7 @@
 			"specialty" :
 			{
 				"tooltip" : "Creature Bonus: Octopuses",
-				"description" : "{Octopuses and Ferocious Octopuses}\r\n\r\nIncreases Speed of any Octopuses or Ferocious Octopuses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"description" : "Increases Speed of any Octopuses or Ferocious Octopuses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
 				"name" : "Octopuses"
 			}
 		},

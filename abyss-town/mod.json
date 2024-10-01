@@ -3,11 +3,12 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.03",
+	"version" : "1.04",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
+		"1.04"   : [ "Fixed Kingsax specialty" ],
 		"1.03"   : [ "Updated russian translation" ],
 		"1.02"   : [ "Added effects to grail (by Dark Imagine)" ],
 		"1.00"   : [ "Fixed dwelling masks" ],

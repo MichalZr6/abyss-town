@@ -9,7 +9,7 @@
 			"biography" : "Long ago, Perha found a mysterious diadem, whispering in her ears, providing her powers to twist the minds of others into madness.",
 			"specialty" : 
 			{
-				"description" : "{Bless}\r\n\r\nBless Cure with increased effect, based on hero level.",
+				"description" : "Bless Cure with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Bless",
 				"name" : "Bless"
 			}

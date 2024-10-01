@@ -9,7 +9,7 @@
 			"biography" : "For someone living underwater, Trila has a strange obsession with armor. She has found a special alloy that never rusts which she dresses her subjects in.",
 			"specialty" :
 			{
-				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage.",
+				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
 				"tooltip" : "Secondary skill bonus: Offence",
 				"name" : "Offence"
 			}

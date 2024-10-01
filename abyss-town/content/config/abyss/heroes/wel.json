@@ -9,7 +9,7 @@
 			"biography" : "Wel was a mighty king of a small domain beneath the oceans. Seeing the deaths of countless of his subjects throughout the years, he sought magic to solve the issue of dwindling taxes. Eventually, he lost interest in ruling altogether, prefering the company of his tomes and the arcane arts, and always seek to aid those in need.",
 			"specialty" : 
 			{
-				"description" : "{Resurrection}\r\n\r\nHero can cast the Resurrection spell with increased effectiveness",
+				"description" : "Hero can cast the Resurrection spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection"
 			}

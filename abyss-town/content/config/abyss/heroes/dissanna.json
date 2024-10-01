@@ -9,7 +9,7 @@
 			"biography" : "Dissanna had a simple upbringing but a Wizard noticed her knack for controlling flames, and taught her the ability to make mines with that power. Today, there are few who wishes to confront her directly on the battlefield.",
 			"specialty" : 
 			{
-				"description" : "{Cure}\r\n\r\nCasts Cure with increased effect, based on hero level.",
+				"description" : "Casts Cure with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Cure",
 				"name" : "Cure"
 			}
