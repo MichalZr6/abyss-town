@@ -10,7 +10,7 @@
 					"base" : { "animation" : "abyss/map/banks/waterTemple.def", 
 					"visitableFrom" : [ "+++", "+++", "+++" ], 
 					"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB"], 
-					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
+					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava", "newtown-terrains.shallowsTerrain:shallows"] 
 					}
 				},
 				"rmg" : {
@@ -95,17 +95,16 @@
 						],
 						"combat_value": 1704,
 						"reward" : {
-							"value": 25000,
+							"value": 30000,
 							"resources": 
 							{
 							
-								"crystal" : 10,
-								"gems" : 10,
-								"gold" : 5000
+								"crystal" : 20,
+								"gems" : 20,
+								"gold" : 14000
 							}
 						}
 					}
-
 				]
 			}
 		}

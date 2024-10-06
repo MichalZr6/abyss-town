@@ -1,23 +1,23 @@
 {
 	"darkOne":
 	{
-"name" :{"plural" : "Dark Ones","singular":"Dark One"},
-
+		"name" :{
+			"plural" : "Dark Ones",
+			"singular":"Dark One"
+		},
 		"advMapAmount" :
 		{
 
 			 "max" : 25,
 			 "min" : 12
 		},
-"doubleWide" : false,
+		"doubleWide" : false,
+		"upgrades":
+		[
+			"deepOne"
+		],
 
-"upgrades":
-[
-"deepOne"
-],
-
-	"hasDoubleWeek": true, 
-
+		"hasDoubleWeek": true, 
 		"faction" : "abyss",
 		"aiValue" : 274,
 		"attack" : 7,
@@ -63,10 +63,9 @@
 		"speed" : 5,
 		"abilities":
 		{
-			"immuneToBlind":	
-			{	
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.blind"
+			"poison":{
+				"type":"POISON",
+				"val": 3
 			}
 		},
 		"stackExperience" :

@@ -18,7 +18,13 @@
 				"type" : "ACID_BREATH",
 				"val" : 2,
 				"addInfo" : 50
-				}
+			},
+			"reduceDefence" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100
+			}			
 		},
 		"stackExperience" :
 		[	
@@ -65,7 +71,7 @@
 		],	
 		"advMapAmount" : {"max" : 20, "min" : 12},
 		"aiValue" : 486,
-		"attack" : 7,
+		"attack" : 8,
 		"cost" : { "gold" : 250 },
 		"damage" : {"max" : 5, "min" : 3},
 		"defense" : 7,
@@ -80,7 +86,7 @@
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 7,
-		"hitPoints" : 18,
+		"hitPoints" : 20,
                 "doubleWide" : true,
 		"level" : 3,
 		"name" : { "plural" : "Poisonous Seaweeds", "singular" : "Poisonous Seaweed" },
