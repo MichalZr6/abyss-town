@@ -5,5 +5,9 @@
 	"contact" : "",
 	"version" : "1.0",
 	"modType" : "Mechanics",
-	"objects" : [ "config/abyss/changedBanks.json" ]
+	"objects" : [ "config/abyss/changedBanks.json" ],
+	"czech" : {
+		"name" : "Změněné jednotky",
+		"description" : "Submod nahrazuje některé jednotky ve vracích a opuštěných lodích jednotkami Propasti"
+	}
 }
