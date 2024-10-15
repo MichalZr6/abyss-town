@@ -4,5 +4,9 @@
 	"version" : "1.0",
 	"author" : "MinosKings. Music is takes from Master of Puppets mod for Heroes 3.",
 	"contact" : "",
-	"modType" : "Music"
+	"modType" : "Music",
+	"czech" : {
+		"name" : "Nová bitevní hudba",
+		"description" : "Mění čtyři bitevní skladby"
+	}
 }
