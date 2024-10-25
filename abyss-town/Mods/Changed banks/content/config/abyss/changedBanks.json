@@ -2,9 +2,9 @@
 	"core:shipwreck" : {
 		"types" : {
 			"shipwreck" : {
-				"levels": [
+				"rewards": [
 					{
-						"chance": 25,
+						"appearChance" : { "min" : 0, "max" : 25 },
 						"guards": [
 							{ "amount": 12, "type": "tbirdvulgaris" },
 							{ "amount": 8, "type": "abyssSandCrab" },
@@ -12,17 +12,13 @@
 							{ "amount": 8, "type": "abyssSandCrab" },
 							{ "amount": 12, "type": "tbirdvulgaris" }
 						],
-						"combat_value": 31,
-						"reward" : {
-							"value": 2000,
-							"resources":
-							{
-								"gold" : 2000
-							}
+						"resources":
+						{
+							"gold" : 2000
 						}
 					},
 					{
-						"chance": 25,
+						"appearChance" : { "min" : 25, "max" : 50 },
 						"guards": [
 							{ "amount": 10, "type": "abyssSandCrab" },
 							{ "amount": 12, "type": "tbirdvulgaris" },
@@ -30,17 +26,13 @@
 							{ "amount": 10, "type": "tbirdelectric" },
 							{ "amount": 10, "type": "abyssSandCrab" }
 						],
-						"combat_value": 46,
-						"reward" : {
-							"value": 3000,
-							"resources":
-							{
-								"gold" : 2000
-							}
+						"resources":
+						{
+							"gold" : 2000
 						}
 					},
 					{
-						"chance": 25,
+						"appearChance" : { "min" : 50, "max" : 75 },
 						"guards": [
 							{ "amount": 12, "type": "abyssSandCrab" },
 							{ "amount": 15, "type": "tbirdelectric" },
@@ -48,18 +40,14 @@
 							{ "amount": 15, "type": "tbirdelectric" },
 							{ "amount": 12, "type": "abyssAbyssalCrab" }
 						],
-						"combat_value": 77,
-						"reward" : {
-							"value": 5000,
-							"resources":
-							{
-								"gold" : 2500
-							},
-							"artifacts": [ { "class" : "TREASURE" } ]
-						}
+						"resources":
+						{
+							"gold" : 2500
+						},
+						"artifacts": [ { "class" : "TREASURE" } ]
 					},
 					{
-						"chance": 10,
+						"appearChance" : { "min" : 75, "max" : 85 },
 						"guards": [
 							{ "amount": 10, "type": "abyssSeahorse" },
 							{ "amount": 15, "type": "abyssAbyssalCrab" },
@@ -67,18 +55,14 @@
 							{ "amount": 15, "type": "abyssAbyssalCrab" },
 							{ "amount": 10, "type": "abyssHyppocamph" }
 						],
-						"combat_value": 154,
-						"reward" : {
-							"value": 7000,
-							"resources":
-							{
-								"gold" : 3000
-							},
-							"artifacts": [ { "class" : "MINOR" } ]
-						}
+						"resources":
+						{
+							"gold" : 3000
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
 					},
 					{
-						"chance": 10,
+						"appearChance" : { "min" : 85, "max" : 95 },
 						"guards": [
 							{ "amount": 10, "type": "abyssSeahorse" },
 							{ "amount": 10, "type": "darkOne" },
@@ -86,18 +70,14 @@
 							{ "amount": 10, "type": "darkOne" },
 							{ "amount": 10, "type": "abyssSeahorse" }
 						],
-						"combat_value": 182,
-						"reward" : {
-							"value": 8000,
-							"resources":
-							{
-								"gold" : 4000
-							},
-							"creatures": [ { "amount": 7, "type": "deepOne" } ]
-						}
+						"resources":
+						{
+							"gold" : 4000
+						},
+						"creatures": [ { "amount": 7, "type": "deepOne" } ]
 					},
 					{
-						"chance": 5,
+						"appearChance" : { "min" : 95, "max" : 100 },
 						"guards": [
 							{ "amount": 10, "type": "darkOne" },
 							{ "amount": 10, "type": "abyssHyppocamph" },
@@ -105,15 +85,11 @@
 							{ "amount": 10, "type": "abyssHyppocamph" },
 							{ "amount": 10, "type": "darkOne" }
 						],
-						"combat_value": 205,
-						"reward" : {
-							"value": 9000,
-							"resources":
-							{
-								"gold" : 4000
-							},
-							"creatures": [ { "amount": 7, "type": "goldenHyppocamph" } ]
-						}
+						"resources":
+						{
+							"gold" : 4000
+						},
+						"creatures": [ { "amount": 7, "type": "goldenHyppocamph" } ]
 					}
 				]
 			}
@@ -123,9 +99,9 @@
 	"core:derelictShip" : {
 		"types" : {
 			"derelictShip" : {
-				"levels": [
+				"rewards": [
 					{
-						"chance": 25,
+						"appearChance" : { "min" : 0, "max" : 25 },
 						"guards": [
 							{ "amount": 7, "type": "darkOne" },
 							{ "amount": 5, "type": "abyssDeepwaterJellyfish" },
@@ -133,17 +109,13 @@
 							{ "amount": 5, "type": "abyssDeepwaterJellyfish" },
 							{ "amount": 7, "type": "darkOne" }
 						],
-						"combat_value": 138,
-						"reward" : {
-							"value": 3000,
-							"resources":
-							{
-								"gold" : 2500
-							}
+						"resources":
+						{
+							"gold" : 2500
 						}
 					},
 					{
-						"chance": 25,
+						"appearChance" : { "min" : 25, "max" : 50 },
 						"guards": [
 							{ "amount": 10, "type": "deepOne" },
 							{ "amount": 7, "type": "abyssDeepwaterJellyfish" },
@@ -151,18 +123,14 @@
 							{ "amount": 7, "type": "abyssDeepwaterJellyfish" },
 							{ "amount": 10, "type": "deepOne" }
 						],
-						"combat_value": 207,
-						"reward" : {
-							"value": 4000,
-							"resources":
-							{
-								"gold" : 2500
-							},
-							"artifacts": [ { "class" : "TREASURE" } ]
-						}
+						"resources":
+						{
+							"gold" : 2500
+						},
+						"artifacts": [ { "class" : "TREASURE" } ]
 					},
 					{
-						"chance": 25,
+						"appearChance" : { "min" : 50, "max" : 75 },
 						"guards": [
 							{ "amount": 13, "type": "abyssSeahorse" },
 							{ "amount": 7, "type": "abyssAbyssalJellyfish" },
@@ -170,19 +138,15 @@
 							{ "amount": 7, "type": "abyssAbyssalJellyfish" },
 							{ "amount": 13, "type": "abyssHyppocamph" }
 						],
-						"combat_value": 276,
-						"reward" : {
-							"value": 5000,
-							"resources":
-							{
-								"gold" : 3500
-							},
-							"artifacts": [ { "class" : "TREASURE" } ],
-							"spells" : [ { "level" : 2 } ]
-						}
+						"resources":
+						{
+							"gold" : 3500
+						},
+						"artifacts": [ { "class" : "TREASURE" } ],
+						"spells" : [ { "level" : 2 } ]
 					},
 					{
-						"chance": 15,
+						"appearChance" : { "min" : 75, "max" : 90 },
 						"guards": [
 							{ "amount": 13, "type": "abyssHyppocamph" },
 							{ "amount": 12, "type": "iceElemental" },
@@ -190,19 +154,15 @@
 							{ "amount": 12, "type": "iceElemental" },
 							{ "amount": 13, "type": "abyssHyppocamph" }
 						],
-						"combat_value": 414,
-						"reward" : {
-							"value": 8000,
-							"resources":
-							{
-								"gold" : 4500
-							},
-							"artifacts": [ { "class" : "MINOR" } ],
-							"spells" : [ { "level" : 2 } ]
-						}
+						"resources":
+						{
+							"gold" : 4500
+						},
+						"artifacts": [ { "class" : "MINOR" } ],
+						"spells" : [ { "level" : 2 } ]
 					},
 					{
-					"chance": 10,
+					"appearChance" : { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 16, "type": "goldenHyppocamph" },
 							{ "amount": 12, "type": "iceElemental" },
@@ -210,16 +170,12 @@
 							{ "amount": 12, "type": "iceElemental" },
 							{ "amount": 16, "type": "goldenHyppocamph" }
 						],
-						"combat_value": 482,
-						"reward" : {
-							"value": 9000,
-							"resources":
-							{
-								"gold" : 6000
-							},
+						"resources":
+						{
+							"gold" : 6000
+						},
 							"artifacts": [ { "class" : "MINOR" }, { "class" : "TREASURE" } ],
 							"spells" : [ { "level" : 3 } ]
-						}
 					}
 				]
 			}

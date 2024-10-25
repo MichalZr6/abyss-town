@@ -244,6 +244,7 @@
 						"wood" : 5,
 						"gold" : 500
 					},
+					"marketModes" : ["resource-resource", "resource-player"],
 					"id" : 14
 				},
 				"resourceSilo" :
@@ -256,12 +257,14 @@
 						"gold" : 5000
 					},
 					"requires" : [ "marketplace" ],
+					"produce": { "gems": 1 },
 					"id" : 15
 				},
 				"blacksmith" :
 				{
-					"description" : "The Blacksmith provides your armies with First Aid Tents.",
+					"description" : "The Blacksmith provides your armies with Harpoon Cannons.",
 					"name" : "Blacksmith",
+					"warMachine" : "abyssHarpoon",
 					"cost" :
 					{
 						"wood" : 5,
@@ -323,7 +326,7 @@
 					{
 						"gold" : 10000
 					},
-					"type" : "artifactMerchant",
+					"marketModes" : ["resource-artifact", "artifact-resource"],
 					"requires" : [ "marketplace" ],
 					"id" : 17
 				},
@@ -336,7 +339,14 @@
 						"mercury" : 5,
 						"gold" : 1500
 					},
-					"type" : "brotherhoodOfSword",
+					"upgradeReplacesBonuses" : true,
+					"bonuses": [
+						{
+							"type": "MORALE",
+							"val": 2
+						}
+					],
+					"upgrades" : "tavern",
 					"requires" : [ "fort" ],
 					"id" : 21
 				},	
@@ -349,7 +359,15 @@
 						"crystal" : 5,
 						"gold" : 2000
 					},
-					"type" : "spellPowerVisitingBonus",
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.582",
+								"primary" : { "spellpower" : 1 }
+							}
+						]
+					},
 					"requires" : [ "mageGuild1" ],
 					"id" : 22
 				},	
@@ -669,7 +687,7 @@
 				}
 			},
 			"mageGuild" : 5,
-			"musicTheme" : "music/factions/Town",
+			"musicTheme" : [ "music/factions/Town" ],
 			"names" : [
 				"Rivenhalls",
 				"Antillos",
@@ -1081,7 +1099,6 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "abyss/town-screen/background.bmp",
-		"warMachine" : "abyssHarpoon",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],

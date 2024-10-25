@@ -3,11 +3,12 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.06",
+	"version" : "1.10",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
+		"1.10"   : [ "Update to vcmi-1.6 version" ],
 		"1.06"   : [ "Czech translation by George King" ],
 		"1.05"   : [ "Fixed issue with Water Temple bank", "Fixed issue with Dark Ones/Deep Ones abilities", "Fixed issue with Seeweed's Acid Breath" ],
 		"1.04"   : [ "Fixed Kingsax specialty" ],
@@ -29,7 +30,7 @@
 	},
 	"compatibility":
 	{
-		"min" : "1.4.0"
+		"min" : "1.6.0"
 	},
 	"chinese" : {
 		"name" : "深渊",

@@ -3,14 +3,14 @@
 	{
 		"types" : 
 		{
-			" WaterTemple" : 
+			"waterTemple" : 
 			{
 				"name" : "Water Temple",
 				"templates" : {
 					"base" : { "animation" : "abyss/map/banks/waterTemple.def", 
 					"visitableFrom" : [ "+++", "+++", "+++" ], 
 					"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB"], 
-					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava", "newtown-terrains.shallowsTerrain:shallows"] 
+					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
 					}
 				},
 				"rmg" : {
