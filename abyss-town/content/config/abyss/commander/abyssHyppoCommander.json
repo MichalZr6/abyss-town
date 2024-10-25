@@ -65,8 +65,9 @@
 		{
 			"magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 5
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 50
 			},
 			"castsAmount" :
 			{
