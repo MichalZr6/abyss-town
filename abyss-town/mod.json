@@ -8,7 +8,7 @@
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
-		"1.10"   : [ "Update to vcmi-1.6 version" ],
+		"1.10"   : [ "Update to vcmi-1.6 version", "Added polish translation by FallainBlack" ],
 		"1.06"   : [ "Czech translation by George King" ],
 		"1.05"   : [ "Fixed issue with Water Temple bank", "Fixed issue with Dark Ones/Deep Ones abilities", "Fixed issue with Seeweed's Acid Breath" ],
 		"1.04"   : [ "Fixed Kingsax specialty" ],
@@ -65,6 +65,13 @@
 		"description" : "Nové město Útes, vytvořené na motivy podvodního světa.",
 		"translations" : [
 			"translation/abyss/czech.json"
+		]
+	},
+	"polish" : {
+		"name" : "Głębia",
+		"description" : "Nowe miasto Głębia, wykorzystujące mitologię podwodnego świata.",
+		"translations" : [
+			"translation/abyss/polish.json"
 		]
 	},
 	"creatures" :
