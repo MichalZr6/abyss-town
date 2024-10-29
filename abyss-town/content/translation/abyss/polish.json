@@ -240,7 +240,7 @@
     "heroClass.abyss-town.abyssalShaman.name": "Wyrocznia",
     "heroClass.abyss-town.ichthyander.name": "Pan Morza",
 	"spell.abyss-town.abyssMoatTrigger.name": "Kopać",
-    "mapObject.abyss-town.creatureBank. WaterTemple.name": "Świątynia Wody",
+    "mapObject.abyss-town.creatureBank.waterTemple.name": "Świątynia Wody",
     "mapObject.abyss-town.creatureGeneratorCommon.coralCavern.name": "Jaskinia Koralowa",
     "mapObject.abyss-town.creatureGeneratorCommon.ancientWhirpool.name": "Starożytny Wir",
     "mapObject.abyss-town.creatureGeneratorCommon.crimsonPool.name": "Karmazynowy Basen",

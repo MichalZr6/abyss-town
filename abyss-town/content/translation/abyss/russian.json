@@ -240,7 +240,7 @@
     "heroClass.abyss-town.abyssalShaman.name": "Оракул",
     "heroClass.abyss-town.ichthyander.name": "Морской Лорд",
 	"spell.abyss-town.abyssMoatTrigger.name": "Копатель",
-    "mapObject.abyss-town.creatureBank. WaterTemple.name": "Водный храм",
+    "mapObject.abyss-town.creatureBank.waterTemple.name": "Водный храм",
     "mapObject.abyss-town.creatureGeneratorCommon.coralCavern.name": "Коралловая пещера",
     "mapObject.abyss-town.creatureGeneratorCommon.ancientWhirpool.name": "Древний бассейн",
     "mapObject.abyss-town.creatureGeneratorCommon.crimsonPool.name": "Багровый бассейн",
