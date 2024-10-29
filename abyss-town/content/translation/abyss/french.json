@@ -215,7 +215,7 @@
     "heroClass.abyss-town.abyssalShaman.name": "Oracle",
     "heroClass.abyss-town.ichthyander.name": "Seigneur des Mers",
 	"spell.abyss-town.abyssMoatTrigger.name": "Fossé",
-    "mapObject.abyss-town.creatureBank. WaterTemple.name": "Temple de l'Eau",
+    "mapObject.abyss-town.creatureBank.waterTemple.name": "Temple de l'Eau",
     "mapObject.abyss-town.creatureGeneratorCommon.spawningPool.name": "Fosse de Ponte",
     "mapObject.abyss-town.creatureGeneratorCommon.crimsonPool.name": "Bassin Cramoisi",
     "mapObject.abyss-town.creatureGeneratorCommon.waterdeepPool.name": "Piscine d'Eau Profonde",

@@ -266,7 +266,7 @@
 	"hero.abyss-town.werser.specialty.tooltip" : "Bonus k jednotkám: Mořští koníci",
 	"heroClass.abyss-town.abyssalShaman.name" : "Věštec",
 	"heroClass.abyss-town.ichthyander.name" : "Mořský pán",
-	"mapObject.abyss-town.creatureBank.WaterTemple.name" : "Vodní chrám",
+	"mapObject.abyss-town.creatureBank.waterTemple.name" : "Vodní chrám",
 	"mapObject.abyss-town.creatureGeneratorCommon.ancientWhirpool.name" : "Pradávný vír",
 	"mapObject.abyss-town.creatureGeneratorCommon.coralCavern.name" : "Korálová jeskyně",
 	"mapObject.abyss-town.creatureGeneratorCommon.crimsonPool.name" : "Karmínový rybník",

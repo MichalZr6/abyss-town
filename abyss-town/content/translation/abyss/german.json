@@ -240,7 +240,7 @@
     "heroClass.abyss-town.abyssalShaman.name": "Oracle",
     "heroClass.abyss-town.ichthyander.name": "Seelord",
 	"spell.abyss-town.abyssMoatTrigger.name": "Graben",
-    "mapObject.abyss-town.creatureBank. WaterTemple.name": "Wassertempel",
+    "mapObject.abyss-town.creatureBank.waterTemple.name": "Wassertempel",
     "mapObject.abyss-town.creatureGeneratorCommon.coralCavern.name": "Korallenhöhle",
     "mapObject.abyss-town.creatureGeneratorCommon.ancientWhirpool.name": "abKrakken",
     "mapObject.abyss-town.creatureGeneratorCommon.crimsonPool.name": "Karminroter Pool",
