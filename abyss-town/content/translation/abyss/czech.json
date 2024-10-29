@@ -1,7 +1,7 @@
 {
-	"artifact.abyss-town.harpoon.description" : "{Harpunové dělo}\r\n\r\nPoslední vývoj vědců pro ničení nepřátelských jednotek.",
-	"artifact.abyss-town.harpoon.event" : "Univerzální válečný stroj ti umožňuje útočit na opevněné nepřátelské jednotky.",
-	"artifact.abyss-town.harpoon.name" : "Harpunové dělo",
+	"artifact.abyss-town.abyssHarpoon.description" : "{Harpunové dělo}\r\n\r\nPoslední vývoj vědců pro ničení nepřátelských jednotek.",
+	"artifact.abyss-town.abyssHarpoon.event" : "Univerzální válečný stroj ti umožňuje útočit na opevněné nepřátelské jednotky.",
+	"artifact.abyss-town.abyssHarpoon.name" : "Harpunové dělo",
 	"building.abyss-town.abyss.blacksmith.description" : "Kovárna poskytuje tvým armádám Stany první pomoci.",
 	"building.abyss-town.abyss.blacksmith.name" : "Kovárna",
 	"building.abyss-town.abyss.capitol.description" : "Hlavní město vydělává tvému království 4000 zlaťáků denně.",
