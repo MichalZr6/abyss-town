@@ -363,7 +363,7 @@
 						"visitMode" : "hero",
 						"rewards" : [
 							{
-								"message" : "@core.genrltxt.582",
+								"message" : "The Seaweeds of Harmony teach you new ways to focus your magical powers (+1 Power)",
 								"primary" : { "spellpower" : 1 }
 							}
 						]

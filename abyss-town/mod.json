@@ -3,11 +3,12 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.10",
+	"version" : "1.11",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
+		"1.11"   : [ "Spell changes called Child of the Light that affect Yuan-Ti made by 白云飘飘" ],
 		"1.10"   : [ "Update to vcmi-1.6 version", "Added polish translation by FallainBlack" ],
 		"1.06"   : [ "Czech translation by George King" ],
 		"1.05"   : [ "Fixed issue with Water Temple bank", "Fixed issue with Dark Ones/Deep Ones abilities", "Fixed issue with Seeweed's Acid Breath" ],
@@ -116,14 +117,15 @@
 	
 	"spells" :
 	[
-		"config/abyss/spells/moat.json"
+		"config/abyss/spells/moat.json",
+		"config/abyss/spells/childOfTheLight.json"
 	],
 
 	"heroes" :
 	[
-	"config/abyss/heroes/arkana.json",
-	"config/abyss/heroes/asler.json",
-	"config/abyss/heroes/karnti.json",
+		"config/abyss/heroes/arkana.json",
+		"config/abyss/heroes/asler.json",
+		"config/abyss/heroes/karnti.json",
         "config/abyss/heroes/sirranna.json",
         "config/abyss/heroes/pears.json",
         "config/abyss/heroes/season.json",
