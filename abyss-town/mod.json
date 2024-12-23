@@ -3,11 +3,12 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.11",
+	"version" : "1.12",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
+		"1.12"   : [ "Fix Grail not to produce gold" ],
 		"1.11"   : [ "Spell changes called Child of the Light that affect Yuan-Ti made by 白云飘飘" ],
 		"1.10"   : [ "Update to vcmi-1.6 version", "Added polish translation by FallainBlack" ],
 		"1.06"   : [ "Czech translation by George King" ],
