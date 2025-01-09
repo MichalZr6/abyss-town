@@ -346,7 +346,7 @@
 							"val": 2
 						}
 					],
-					"requires" : [ "fort", "tavern" ],
+					"requires" : [ "allOf", ["fort"], ["tavern"] ],
 					"id" : 21
 				},	
 				"special3" : 
