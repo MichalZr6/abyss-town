@@ -346,8 +346,7 @@
 							"val": 2
 						}
 					],
-					"upgrades" : "tavern",
-					"requires" : [ "fort" ],
+					"requires" : [ "fort", "tavern" ],
 					"id" : 21
 				},	
 				"special3" : 
