@@ -3,11 +3,12 @@
 	"description" : "Abyss town",
 	"author" : "Axolotl (graphics), mitlandy, Tooandorisu, Warmonger, misiokles, Troggly, Dydzio, Anonymous, StasPV",
 	"contact" : "https://forum.vcmi.eu/t/abyss-town-revived/1010",
-	"version" : "1.12",
+	"version" : "1.13",
 	"modType" : "Town",
 	"factions" : [ "config/abyss/town" ],
 	"changelog" :
 	{
+		"1.13"   : [ "Added ukrainian translation" ],
 		"1.12"   : [ "Fix Grail not to produce gold" ],
 		"1.11"   : [ "Spell changes called Child of the Light that affect Yuan-Ti made by 白云飘飘" ],
 		"1.10"   : [ "Update to vcmi-1.6 version", "Added polish translation by FallainBlack" ],
@@ -74,6 +75,13 @@
 		"description" : "Nowe miasto Głębia, wykorzystujące mitologię podwodnego świata.",
 		"translations" : [
 			"translation/abyss/polish.json"
+		]
+	},
+	"ukrainian" : {
+		"name" :"Безодня",
+		"description" : "Нове місто Безодня, створене за мотивами міфології підводного світу",
+		"translations" : [
+			"translation/abyss/ukrainian.json"
 		]
 	},
 	"creatures" :
