@@ -9,4 +9,8 @@
 		"name" : "Nová bitevní hudba",
 		"description" : "Mění čtyři bitevní skladby"
 	}
+	"ukrainian" : {
+		"name" : "Нова бойова музика",
+		"description" : "Міняє чотири бойові композиції"
+	}
 }
