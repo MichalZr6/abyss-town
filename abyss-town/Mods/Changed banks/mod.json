@@ -13,5 +13,9 @@
 	"polish" : {
 		"name" : "Zmienione Banki",
 		"description" : "Submod zastępuje niektóre stworzenia Otchłani w wrakach statków i opuszczonych statkach"
+   },
+	"ukrainian" : {
+		"name" : "Змінені банки",
+		"description" : "Підмод заміняє деяких істот у кораблетрощах та занедбаних кораблях"
 	}
 }
